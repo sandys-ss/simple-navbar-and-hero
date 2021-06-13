@@ -1,7 +1,7 @@
 module.exports = {
   // set enabled true for production, false for normal (lin2 2-8)
   purge: {
-    enabled: false,
+    enabled: true,
     content: [
       './dist/*.html',
       './dist/*.js'
